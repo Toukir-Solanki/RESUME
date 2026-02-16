@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Toukir Solanki | IT Executive</title>
+    <meta name="description"
+        content="Toukir Solanki — IT Executive specializing in system support, networking, and automation.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="is-loading">
+    <div class="loader-screen" id="loaderScreen">
+        <div class="loader-content">
+            <div class="loader-name" aria-label="TOUKIR"><span class="loader-letter" data-index="0">T</span><span
+                    class="loader-letter" data-index="1">O</span><span class="loader-letter"
+                    data-index="2">U</span><span class="loader-letter" data-index="3">K</span><span
+                    class="loader-letter" data-index="4">I</span><span class="loader-letter" data-index="5">R</span>
+            </div>
+            <div class="loader-bar-track">
+                <div class="loader-bar-fill" id="loaderBar"></div>
+            </div>
+        </div>
+    </div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <nav class="navbar" id="navbar"><a href="#" class="logo"><span class="logo-bracket">&lt;</span>TS<span
+                class="logo-bracket">/&gt;</span></a>
+        <div class="nav-links" id="navLinks">
+            <ol>
+                <li><a href="#about"><span class="nav-num">01.</span> About</a></li>
+                <li><a href="#skills"><span class="nav-num">02.</span> Skills</a></li>
+                <li><a href="#work"><span class="nav-num">03.</span> Work</a></li>
+                <li><a href="#contact"><span class="nav-num">04.</span> Contact</a></li>
+            </ol><a href="mailto:toukirsolanki@gmail.com" class="resume-btn"><i class="fa-solid fa-paper-plane"></i>
+                Resume</a>
+        </div><button class="hamburger" id="hamburger"
+            aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </nav>
+    <div class="side-element left">
+        <ul class="social-list">
+            <li><a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+        <div class="line"></div>
+    </div>
+    <div class="side-element right"><a href="mailto:toukirsolanki@gmail.com"
+            class="email-vertical">toukirsolanki@gmail.com</a>
+        <div class="line"></div>
+    </div>
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="topo-bg" aria-hidden="true"><svg viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMidYMid slice">
+                    <defs>
+                        <linearGradient id="topoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#64ffda;stop-opacity:0.07" />
+                            <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0.04" />
+                        </linearGradient>
+                    </defs>
+                    <g fill="none" stroke="url(#topoGrad)" stroke-width="1.2">
+                        <path d="M0 400 Q180 320,360 380 T720 350 T1080 390 T1440 360" />
+                        <path d="M0 420 Q200 340,400 400 T800 370 T1200 410 T1440 380" />
+                        <path d="M0 450 Q160 390,320 440 T640 420 T960 450 T1280 430 T1440 440" />
+                        <path d="M0 500 Q200 440,400 490 T800 460 T1200 500 T1440 470" />
+                        <path d="M0 530 Q180 480,360 520 T720 500 T1080 540 T1440 510" />
+                        <path d="M0 300 Q240 240,480 290 T960 270 T1440 300" />
+                        <path d="M0 320 Q200 270,400 310 T800 290 T1200 320 T1440 310" />
+                        <path d="M0 580 Q220 530,440 570 T880 550 T1320 580 T1440 560" />
+                        <path d="M0 610 Q200 560,400 600 T800 580 T1200 610 T1440 590" />
+                        <path d="M0 650 Q160 610,320 640 T640 620 T960 650 T1280 630 T1440 640" />
+                        <path d="M0 250 Q300 190,600 240 T1200 220 T1440 250" />
+                        <path d="M0 700 Q240 660,480 690 T960 670 T1440 700" />
+                        <path d="M0 200 Q360 150,720 200 T1440 180" />
+                        <path d="M0 160 Q240 120,480 160 T960 140 T1440 160" />
+                        <path d="M0 750 Q180 720,360 740 T720 730 T1080 750 T1440 730" />
+                        <path d="M0 800 Q300 770,600 790 T1200 780 T1440 800" />
+                        <path d="M0 120 Q200 80,400 110 T800 90 T1200 120 T1440 100" />
+                        <path d="M0 850 Q220 830,440 850 T880 840 T1320 850 T1440 840" />
+                    </g>
+                    <g fill="none" stroke-width="0.8">
+                        <circle cx="300" cy="350" r="60" stroke="rgba(100,255,218,0.05)" />
+                        <circle cx="300" cy="350" r="90" stroke="rgba(100,255,218,0.04)" />
+                        <circle cx="300" cy="350" r="120" stroke="rgba(100,255,218,0.03)" />
+                        <circle cx="300" cy="350" r="150" stroke="rgba(100,255,218,0.02)" />
+                        <circle cx="1100" cy="550" r="70" stroke="rgba(99,102,241,0.05)" />
+                        <circle cx="1100" cy="550" r="110" stroke="rgba(99,102,241,0.04)" />
+                        <circle cx="1100" cy="550" r="150" stroke="rgba(99,102,241,0.03)" />
+                        <circle cx="700" cy="200" r="50" stroke="rgba(100,255,218,0.04)" />
+                        <circle cx="700" cy="200" r="80" stroke="rgba(100,255,218,0.03)" />
+                        <circle cx="700" cy="200" r="110" stroke="rgba(100,255,218,0.02)" />
+                    </g>
+                </svg></div>
+            <div class="particles" aria-hidden="true"><span class="particle"></span><span class="particle"></span><span
+                    class="particle"></span><span class="particle"></span><span class="particle"></span><span
+                    class="particle"></span></div>
+            <div class="hero-content">
+                <p class="intro-text animate-item" data-delay="0">Hi, my name is</p>
+                <h1 class="big-heading animate-item" data-delay="1">Toukir Solanki.</h1>
+                <h2 class="big-heading gradient-text animate-item" data-delay="2">I build &amp; support <span
+                        class="typing-text" id="typingText"></span><span class="cursor-blink">|</span></h2>
+                <p class="hero-desc animate-item" data-delay="3">I'm a detail-oriented <strong>IT Executive</strong>
+                    specializing in system support, networking, and automation. I focus on ensuring smooth IT operations
+                    and solving technical problems with efficient solutions.</p><a href="#work"
+                    class="cta-btn big-btn animate-item" data-delay="4"><span>Check out my work</span><i
+                        class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="scroll-indicator animate-item" data-delay="5">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div><span>Scroll</span>
+            </div>
+        </section>
+        <section id="about" class="section-block reveal">
+            <h3 class="numbered-heading">About Me</h3>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Hello! My name is Toukir and I enjoy diving into the world of computers and networks. My journey
+                        started with a strong curiosity for how things work, leading me to a <strong>Diploma in Computer
+                            Science</strong> from Kalinga University.</p>
+                    <p>Fast-forward to today, and I've had the privilege of managing IT operations, troubleshooting
+                        complex logical issues, and even automating boring tasks with <strong>Python</strong>. My main
+                        focus these days is building accessible, reliable IT infrastructure.</p>
+                    <p>Here are a few technologies I've been working with recently:</p>
+                    <ul class="skills-list">
+                        <li>Windows OS</li>
+                        <li>Python</li>
+                        <li>PostgreSQL / MySQL</li>
+                        <li>Computer Networking</li>
+                        <li>Hardware Troubleshooting</li>
+                        <li>MS Office Suite</li>
+                    </ul>
+                </div>
+                <div class="about-img">
+                    <div class="img-wrapper">
+                        <div class="fake-img"><i class="fa-solid fa-user-astronaut"></i></div>
+                        <div class="img-border"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section-block reveal">
+            <h3 class="numbered-heading">Where I've Worked</h3>
+            <div class="jobs-tabs">
+                <div class="tabs-list" role="tablist"><button class="tab-btn active" data-tab="0" role="tab"
+                        aria-selected="true">IT Operations</button><button class="tab-btn" data-tab="1" role="tab"
+                        aria-selected="false">Networking</button><button class="tab-btn" data-tab="2" role="tab"
+                        aria-selected="false">Education</button></div>
+                <div class="tabs-content">
+                    <div class="tab-panel active" id="panel-0" role="tabpanel">
+                        <h4 class="job-title">Technical Support <span class="company">@ IT Ops</span></h4>
+                        <p class="job-range">Present</p>
+                        <ul class="job-desc">
+                            <li>Installation, configuration, and troubleshooting of Windows OS environments.</li>
+                            <li>Managing daily operations using MS Excel, Word, and PowerPoint for reporting.</li>
+                            <li>Providing user account support, issue resolution, and documentation.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-panel" id="panel-1" role="tabpanel">
+                        <h4 class="job-title">Network Tech <span class="company">@ Hardware</span></h4>
+                        <p class="job-range">Skills</p>
+                        <ul class="job-desc">
+                            <li>Desktop/Laptop assembly, upgrades, and component level maintenance.</li>
+                            <li>Setting up LAN, IP configurations, and router connectivity.</li>
+                            <li>Troubleshooting printer, scanner, and peripheral setups.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-panel" id="panel-2" role="tabpanel">
+                        <h4 class="job-title">Student <span class="company">@ Kalinga University</span></h4>
+                        <p class="job-range">2023</p>
+                        <ul class="job-desc">
+                            <li>Diploma in Computer Science (Raipur, Chhattisgarh).</li>
+                            <li>Focused on core computing principles and software troubleshooting.</li>
+                            <li>Developed strong communication and presentation skills.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work" class="section-block reveal">
+            <h3 class="numbered-heading">Some Things I've Built</h3>
+            <div class="project-card">
+                <div class="project-card-inner">
+                    <div class="project-card-header">
+                        <div class="project-icon"><i class="fa-regular fa-folder-open"></i></div>
+                        <div class="project-links"><a href="#" aria-label="GitHub"><i
+                                    class="fa-brands fa-github"></i></a><a href="#" aria-label="Live demo"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                    </div>
+                    <h3 class="project-title">Python Sales Automation</h3>
+                    <p class="project-desc-text">A script that automates the generation of weekly sales summaries. It
+                        processes raw data and outputs formatted reports, drastically reducing manual reporting effort
+                        by <strong>40%</strong>.</p>
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Pandas</li>
+                        <li>Excel Automation</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-card-inner">
+                    <div class="project-card-header">
+                        <div class="project-icon"><i class="fa-regular fa-folder-open"></i></div>
+                        <div class="project-links"><a href="#" aria-label="GitHub"><i
+                                    class="fa-brands fa-github"></i></a><a href="#" aria-label="Live demo"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                    </div>
+                    <h3 class="project-title">Daily Reporting System</h3>
+                    <p class="project-desc-text">An automated reporting system that sends email updates for daily
+                        business tracking. Ensures stakeholders are always up to date with zero manual intervention.</p>
+                    <ul class="project-tech">
+                        <li>SQL</li>
+                        <li>SMTP</li>
+                        <li>Task Scheduler</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section-block centered reveal">
+            <p class="code-font highlight">04. What's Next?</p>
+            <h2 class="big-heading">Get In Touch</h2>
+            <p class="contact-desc">I am currently looking for new opportunities in IT Support and Administration.
+                Whether you have a question or just want to say hi, my inbox is always open!</p><a
+                href="mailto:toukirsolanki@gmail.com" class="cta-btn big-btn"><span>Say Hello</span><i
+                    class="fa-solid fa-paper-plane"></i></a>
+        </section>
+    </main>
+    <footer>
+        <div class="social-mobile"><a href="#"><i class="fa-brands fa-github"></i></a><a href="#"><i
+                    class="fa-brands fa-linkedin-in"></i></a><a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>Built with <span class="highlight">&hearts;</span> by Toukir Solanki</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
